@@ -47,3 +47,47 @@ $("#formValidate").validate({
           }
         }
      });
+
+
+     //funcion formulario
+     //expresion regular de js
+     var expresion = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+     $(document).ready(function(){
+       $("#bEnviar").click(function(){
+         var nombre= $("#name").val();
+         var correoElectronico= $("#correo").val();
+
+         if(nombre == ""){
+           alert("ingresa el nombre");
+
+         }else{
+             $("#mensaje")//se desvanece
+             if(correoElectronico == ""  || !exprion.test(correoElectronico) )//test es propio de js{
+
+               alert("ingresa el correo electronico");
+               prevent
+             }
+         }
+       });
+     });
+     */
+
+
+
+
+
+     $(document).ready(validar);
+
+     var validar = function{
+       $("#bEnviar").click(datosValidados);//al dar click al boton enviar se acciona.
+
+     }
+
+     var datosValidados = function(){
+       var nombre = $ ("#nombre").val();
+       var correoElectronico = $("#correo").val();
+
+       if(nombre == ""){
+         alert("ingresar el nombre")
+       }else if()
+     }
