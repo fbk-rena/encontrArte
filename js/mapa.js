@@ -2,6 +2,7 @@ function cargarPagina() {
     $('.button-collapse').sideNav();
     obtenerUbicacion();
     $("#map").click();
+    
 }
 
 var obtenerUbicacion = function (e) {
@@ -70,6 +71,4 @@ var eventosCercanos = function () {
     }
 }
 
-
 $(document).ready(cargarPagina);
-
