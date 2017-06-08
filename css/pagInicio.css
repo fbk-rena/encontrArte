@@ -4,7 +4,7 @@
     height:100%;
     background:#fff url('../assets/img/encontrarte_splash.jpg') no-repeat center;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     width: 100%;
     max-width: 1200px;
     max-height: 1200px;
@@ -43,7 +43,7 @@
 }
 
 .btns-home .btn-singup {
-   background: linear-gradient(135deg, #42a5f5 , #1565c0 );
+   background: #D7084E;
    border: none;
 }
 
@@ -60,15 +60,18 @@
 
 
 
-@media only screen and (min-width: 600px){
+
+
+@media only screen and (min-width: 994px){
 
   body {
-    background-image: url("http://www.turibus.com.mx/up/es/Home/HImg_00000009.jpeg");
+    background-image: url("../assets/img/fondo.jpg");
     width: 100%;
     background-size: cover;
     height: 700px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
   }
   #splash , #mobile{
     display: none;
@@ -116,7 +119,40 @@
     width: 50%;
   }
 
+  .crearEvento {
+    padding: 5% 0;
+  }
 
+  .piePagina {
+    width: 100%;
+    background-color: #FF9D24;
+    height: 100%;
+  }
 
+  .row-footer {
+    padding: 7% 0;
+  }
 
+  .logo-footer {
+    margin-left:50%;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  a.btn-small , a.enlace{
+    color: #000;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 1.1em;
+  }
+
+  li .fa {
+    background-color: #A2AFBE;
+  }
+
+  .img-registro {
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
 }
