@@ -6,17 +6,59 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/usuario.css">
     <meta charset="UTF-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mapa</title>
+    <title>Iniciar Sesión</title>
 </head>
 
 <body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Iniciar Sesión</a>
+        </div>
+    </nav>
+   
+    <form id="formValidate" class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Name</label>
+            </div>
+
+            <div class="input-field col s12">
+                <i class="material-icons prefix">https</i>
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+            </div>
+            <div class="input-field col s12">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button> 
+            </div>           
+        </div>
+    </form>
+
+    <section class="container botones">
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <a href="https://m.facebook.com/campaign/landing.php?campaign_id=341299465978346&placement&creative=188151304751&keyword=facebook&extra_1=c480e5cc-d1a5-4e88-b287-5d9c8f5cd09b&partner_id=googlesem&extra_2=network%3Dg%26matchtype%3De%26target%3D%26source%3Dmobile%26adposition%3D1t1%26aceid%3D&gclid=CI7M-cLfrtQCFQqRaQodWZUE9g&rtime=1496942040&hrc=1&refsrc=https%3A%2F%2Fm.facebook.com%2Fcampaign%2Flanding.php&_rdr" class="waves-effect waves-light btn-large"><i class="right"><img class="icono" src="../iconos/Sed-27-128.png"></i>Iniciar con </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <a class="waves-effect waves-light btn-large"><i class="right"><img class="icono" src="../iconos/Sed-27-128-1.png"></i>Iniciar con </a>
+            </div>
+        </div>
+    </section>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/validacion.js"></script>
 </body>
 
 </html>
