@@ -2,7 +2,7 @@
     position:relative;
     width:100%;
     height:100%;
-    background:#fff url('') no-repeat center;
+    background:#fff url('../assets/img/encontrarte_splash.jpg') no-repeat center;
     background-size: cover;
     background-position: left;
     width: 100%;
@@ -49,16 +49,74 @@
 
 .logo{
   position: absolute;
-  width: 30%;
+  width: 70%;
   top: 5%;
-  left: 35%;
+  left: 20%;
+}
+
+#desktop {
+  display: none;
 }
 
 
 
 @media only screen and (min-width: 600px){
+
+  body {
+    background-image: url("http://www.turibus.com.mx/up/es/Home/HImg_00000009.jpeg");
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
   #splash , #mobile{
     display: none;
   }
+
+  #desktop{
+    display: block;
+    background-color: rgba(231, 231, 231, 0.19);
+  }
+  .seccionImagenesEventos {
+    margin-top: 5%;
+  }
+
+  .navegador .nav-wrapper{
+    background-color: #47334d ;
+    height: 100px;
+  }
+
+  .navegador .nav-content {
+    padding: 1% 2%;
+  }
+
+
+  .eventos {
+    margin-top: 5%;
+    background-color: #357592;
+
+  }
+
+  .evento {
+    padding-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .ultimoEvento {
+    padding-bottom: 5%;
+  }
+
+  .nav-nuevo {
+    background-color: #000;
+  }
+
+  .logo-desk {
+    width: 50%;
+  }
+
+
+
 
 }
