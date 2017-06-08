@@ -2,6 +2,8 @@ function cargarPagina() {
     $('.button-collapse').sideNav();
     obtenerUbicacion();
     $("#map").click();
+    $(".badge").hide();
+    $(".badge").show(37000);
 }
 
 var obtenerUbicacion = function (e) {
@@ -18,6 +20,7 @@ var mostrarPosicion = function (posicion) {
         lng: posicion.coords.longitude
     };
     mostrarMapa(coordenadas);
+    eventosCercanos();
 };
 
 var mostrarMapa = function (coordenadas) {
