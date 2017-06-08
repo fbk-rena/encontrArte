@@ -2,8 +2,11 @@ function cargarPagina() {
     $('.button-collapse').sideNav();
     obtenerUbicacion();
     $("#map").click();
+
+   
     $(".badge").hide();
     $(".badge").show(37000);
+
 }
 
 var obtenerUbicacion = function (e) {
@@ -73,6 +76,4 @@ var eventosCercanos = function () {
     }
 }
 
-
 $(document).ready(cargarPagina);
-
