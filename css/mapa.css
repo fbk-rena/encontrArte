@@ -1,3 +1,15 @@
+body{
+  background-color: #A2AFBE;
+}
+
 #map{
    height: 40vh;
+}
+
+.color_menu{
+  color: white;
+}
+
+.centrar_imagen{
+  margin: auto;
 }

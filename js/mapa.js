@@ -1,7 +1,7 @@
 function cargarPagina() {
-    $(".btn-perfil").sideNav();
+    $('.button-collapse').sideNav();
     obtenerUbicacion();
-    $("#map").click(cambiarUbicacion);
+    $("#map").click();
 }
 
 var obtenerUbicacion = function (e) {
@@ -69,3 +69,7 @@ var eventosCercanos = function () {
         addMarker(feature);
     }
 }
+
+
+$(document).ready(cargarPagina);
+
