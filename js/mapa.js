@@ -1,8 +1,8 @@
 function cargarPagina() {
-    $(".btn-perfil").sideNav();
+    $('.button-collapse').sideNav();
     obtenerUbicacion();
-    $("#map").click(cambiarUbicacion);
-   
+    $("#map").click();
+
 
 }
 
@@ -32,3 +32,5 @@ var mostrarMapa = function (coordenadas) {
         map: map
     });
 }
+
+$(document).ready(cargarPagina);
