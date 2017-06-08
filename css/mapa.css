@@ -13,3 +13,8 @@ body{
 .centrar_imagen{
   margin: auto;
 }
+.logo{
+  width: 10%;
+  margin-left: 70%;
+  margin-top: -13%;
+}
