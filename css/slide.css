@@ -1,3 +1,5 @@
 .btns-home a {
 	z-index: 2;
+	position: fixed;
+	bottom: 5vh;
 }
